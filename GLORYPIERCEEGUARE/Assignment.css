@@ -1,0 +1,78 @@
+/*Style Sheet for the Assignment*/
+body{
+	background-color: #55C19E;
+	background: linear-gradient(#55C19E, #F6FAF8) fixed;}
+ 
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #395A4F;}
+
+/*Navigation Bar*/
+li{
+	width: 100;
+	float: left;
+	border-right: 1px solid #bbb;
+	background-color: #395A4F;}
+	
+/*Navigation Links*/ 
+li a {
+	width: 20;
+	float: left;
+	padding: 12px;
+	display: block;
+	color: white;
+	font-size: 26px;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;}
+	
+	
+li a:hover:not(.active) {
+	background-color: #111;}
+	
+.active {
+	background-color: #4CAF50;}
+
+h1{
+	font: 50px courier;
+	color: #395A4F;
+	text-align: center;
+	font-weight: bold;}
+	
+p1{
+	font: 30px courier;
+	color: 325549;}
+	
+p2{
+	font: 30px courier;
+	color: 325549;
+	font-weight: bold;}
+	
+p1.big {
+  line-height: 1.6;
+  float: left;
+  margin: 0 9.5%;}
+  
+.column {
+  float: left;
+  /*width: 33%;*/
+  /*padding: 5px;*/}
+  
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;}
+  
+.center {
+    position: absolute;
+    width: 1200px;
+    height: 50px;
+    top: 46%;
+    left: 26%;
+    margin-left: -50px;
+    margin-top: -25px;}​
+	
